@@ -20,7 +20,7 @@ The goal was to move beyond basic implementations by utilizing **Hyperparameter 
 ---
 
 ## 📊 Benchmarking & Performance
-The project rigorously tested algorithms against complex benchmarks like the **Schwefel function**, known for its many local minima[cite: 429, 436].
+The project rigorously tested algorithms against complex benchmarks like the **Schwefel function**, known for its many local minima.
 
 ### Algorithm Comparison Summary:
 | Algorithm | Final Fitness (Lower is Better) | Strength |
