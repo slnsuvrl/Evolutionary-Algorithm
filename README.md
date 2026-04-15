@@ -39,19 +39,6 @@ The project rigorously tested algorithms against complex benchmarks like the **S
 
 ---
 
-## 📂 Repository Structure
-```text
-├── main.py             # Core execution script with Grid Search logic
-├── ga_logic.py         # Genetic Algorithm implementation (Individual/Population classes)
-├── sa_logic.py         # Simulated Annealing implementation
-├── rhc_logic.py        # Random Hill Climbing implementation
-├── functions.py        # Benchmark functions (Schwefel, etc.)
-├── requirements.txt    # Project dependencies
-└── results/            # Saved 3D scatter plots and performance graphs
-```
-
----
-
 ## 📖 Key Learnings
 1.  **The Generation Trade-off:** Increasing generations generally improves fitness (e.g., reaching **0.7139** at 800 generations), but yields diminishing returns relative to the increased processing time (75.3s vs 20.2s for 500 generations).
 2.  **Diversity is Key:** High mutation rates (0.8+) were critical in maintaining population diversity and reaching near-global optima in complex search spaces.
